@@ -3,16 +3,36 @@ body{
 }
 div {
     text-align: center;
+    
 }
 
-.link {
-    font-size: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
+button{
+    background-color: wheat;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
 }
 
 h1 {
     font-size: 50px;
     font-family: "Times New Roman";
+    font-style: italic;
     background-color: wheat;
+
+}
+
+.hat{
+    height: auto;
+    width: 300px;
+}
+.hat.right {
+    transform: scaleX(-1);
 }
